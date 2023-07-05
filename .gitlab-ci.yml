@@ -1,5 +1,10 @@
+stages:
+  - build
+  - test
+
 build laptop:
   image: alpine
+  stage: build
   script: 
     - echo "Building a laptop"
     - mkdir build
@@ -9,3 +14,8 @@ build laptop:
     - echo "Keyboard" >> build/computer.txt
     - cat build/computer.txt
 
+test laptop:
+  image: alpine
+  stage: test
+  script:
+    - test -f build/computer.txt
