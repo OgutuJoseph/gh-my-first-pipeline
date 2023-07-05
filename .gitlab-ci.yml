@@ -2,25 +2,29 @@ stages:
   - build
   - test
 
+variables:
+    BUILD_FILE_NAME: laptop.txt
+
 build laptop:
   image: alpine
-  stage: build
+  stage: build 
   script: 
     - echo "Building a laptop"
     - mkdir build
-    - touch build/computer.txt
-    - echo "Mainboard" >> build/computer.txt
-    - cat build/computer.txt
-    - echo "Keyboard" >> build/computer.txt
-    - cat build/computer.txt
+    # - touch build/computer.txt --> you can leave out the touch and the file would still be created
+    - echo "Mainboard" >> build/$BUILD_FILE_NAME
+    - cat build/$BUILD_FILE_NAME
+    - echo "Keyboard" >> build/$BUILD_FILE_NAME
+    - cat build/$BUILD_FILE_NAME
   artifacts:
     paths:
       - build
 
 test laptop:
   image: alpine
-  stage: test
+  stage: test 
   script:
-    - test -f build/computer.txt
-    - grep "Mainboard" build/computer.txt
-    - grep "Keyboard" build/computer.txt
+    - test -f build/$BUILD_FILE_NAME
+    - grep "Mainboard" build/$BUILD_FILE_NAME
+    - grep "Keyboard" build/$BUILD_FILE_NAME
+
