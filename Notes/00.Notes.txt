@@ -1,0 +1,71 @@
+⭐️ Course Contents ⭐️
+
+⭐️ Unit 1 - Introduction to GitLab
+
+⌨️ Lesson 1 - Welcome (0:00:00​)
+⌨️ Lesson 2 - Your first GitLab project (0:03:03​)
+⌨️ Lesson 3 - Your first pipeline (0:13:00​)
+⌨️ Lesson 4 - Help, my pipeline is not working (0:23:32)
+⌨️ Lesson 5 - What is YAML? (0:26:22)
+⌨️ Lesson 6 - What is a shell? (0:35:12)
+⌨️ Lesson 7 - GitLab architecture (0:37:50)
+⌨️ Lesson 8 - Pipeline stages (0:43:14)
+⌨️ Lesson 9 - Why do pipelines fail? (0:48:11)
+⌨️ Lesson 10 - Job artifacts (0:52:34)
+⌨️ Lesson 11 - Testing the build (0:59:02)
+⌨️ Lesson 12 - Variables (1:04:33)
+⌨️ Lesson 13 - What is DevOps (1:10:27)
+
+⭐️ Unit 2 - Continuous Integration with GitLab CI
+
+⌨️ Lesson 1 - Unit overview (1:16:53)
+⌨️ Lesson 2 - Your first GitLab project (1:18:41)
+⌨️ Lesson 3 - Building the project (1:22:05)
+⌨️ Lesson 4 - Assignment (1:33:10)
+⌨️ Lesson 5 - Assignment solution (1:34:43)
+⌨️ Lesson 6 - How to integrate changes? (1:40:24)
+⌨️ Lesson 7 - Merge requests (1:43:50)
+⌨️ Lesson 8 - Code review (1:51:38)
+⌨️ Lesson 9 - Integration tests (1:56:29)
+⌨️ Lesson 10 - How to structure a pipeline (2:10:53)
+
+⭐️ Unit 3 - Continuous Deployment with GitLab & AWS
+
+⌨️ Lesson 1 - Unit overview (2:16:41)
+⌨️ Lesson 2 - A quick introduction to AWS (2:17:14)
+⌨️ Lesson 3 - AWS S3 (2:20:57)
+⌨️ Lesson 4 - AWS CLI (2:23:35)
+⌨️ Lesson 5 - Uploading a file to S3 (2:29:04)
+⌨️ Lesson 6 - Masking & protecting variables (2:33:00)
+⌨️ Lesson 7 - Identity management with AWS IAM (2:38:49)
+⌨️ Lesson 8 - Uploading multiple files to S3 (2:47:54)
+⌨️ Lesson 9 - Hosting a website on S3 (2:53:15)
+⌨️ Lesson 10 - Controlling when jobs run (3:00:06)
+⌨️ Lesson 11 - Post-deployment testing (3:07:03)
+⌨️ Lesson 12 - What is CI/CD? (3:13:01)
+⌨️ Lesson 13 - Assignment (3:16:47)
+⌨️ Lesson 14 - Assignment solution (3:17:26)
+⌨️ Lesson 15 - Environments (3:24:40)
+⌨️ Lesson 16 - Reusing configuration (3:33:52)
+⌨️ Lesson 17 - Assignment (3:36:57)
+⌨️ Lesson 18 - Assignment solution (3:40:53)
+⌨️ Lesson 19 - Continuous Delivery pipeline (3:44:15)
+
+⭐️ Unit 4 - Deploying a dockerized application to AWS
+
+⌨️ Lesson 1 - Unit overview (3:48:129)
+⌨️ Lesson 2 - Introduction to AWS Elastic Beanstalk (3:49:25)
+⌨️ Lesson 3 - Creating a new AWS Elastic Beanstalk application (3:51:48)
+⌨️ Lesson 4 - Creating the Dockerfile (3:59:02)
+⌨️ Lesson 5 - Building the Docker image (4:02:12)
+⌨️ Lesson 6 - Docker container registry (4:09:27)
+⌨️ Lesson 7 - Testing the container (4:15:59)
+⌨️ Lesson 8 - Private registry authentication (4:20:04)
+⌨️ Lesson 9 - Deploying to AWS Elastic Beanstalk (4:34:18)
+⌨️ Lesson 10 - Post-deployment testing (4:45:54)
+⌨️ Lesson 11 - CI/CD recap (4:50:29)
+
+⭐️ Unit 5 - Conclusion
+
+⌨️ Lesson 1 - Final assignment (4:51:37)
+⌨️ Lesson 2 - Conclusion (4:55:16)
